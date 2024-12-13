@@ -13,12 +13,19 @@
                 <option value="black">Play as Black</option>
             </select>
             <button onclick="startNewGame()">New Game</button>
+            <button onclick="undoMove()">Undo</button>
         </div>
         <div id="board"></div>
         <div id="gameStatus"></div>
+        <div id="moveHistoryContainer">
+            <h3>Move History</h3>
+            <ul id="moveHistory"></ul>
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.3/chess.min.js"></script>
     <script src="app.js"></script>
+    
 </body>
+
 </html>
