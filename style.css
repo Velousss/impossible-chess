@@ -14,7 +14,7 @@ body {
     flex-direction: column;
     align-items: center;
     gap: 15px;
-    background-color: #363636;
+    background-color: #777777;
     border: 2px solid #ccc;
     padding: 20px;
     border-radius: 10px;
@@ -63,8 +63,7 @@ button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 50px;
     cursor: pointer;
     user-select: none;
 }
